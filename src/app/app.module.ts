@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { OhoneComponent } from './ohone/ohone.component';
+import { MoonComponent } from './moon/moon.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    OhoneComponent,
+    MoonComponent
   ],
   imports: [
     BrowserModule,
